@@ -5,6 +5,7 @@
 <br/>
 <br/>
 
+SQUIRREL is an extensible GitHub agent designed to automate and streamline software development tasks. While it is capable of handling any GitHub-related task, its current implementation serves as a demo that focuses on reviewing pull requests. Powered by large language models, SQUIRREL showcases how machine learning can be leveraged to enhance development workflows on GitHub. With a straightforward setup, it provides a glimpse into automated code review processes, encouraging developers to extend its capabilities to meet broader project needs
 
 ## Setup
 1. Generate a GitHub access token.
