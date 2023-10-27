@@ -5,7 +5,7 @@
 <br/>
 <br/>
 
-SQUIRREL is an extensible GitHub agent designed to automate and streamline software development tasks. While it is capable of handling any GitHub-related task, its current implementation serves as a demo that focuses on reviewing pull requests. Powered by large language models, SQUIRREL showcases how machine learning can be leveraged to enhance development workflows on GitHub. With a straightforward setup, it provides a glimpse into automated code review processes, encouraging developers to extend its capabilities to meet broader project needs
+SQUIRREL is an extensible GitHub agent designed to automate and streamline software development tasks. While it is capable of handling any GitHub-related task, its current implementation serves as a demo that focuses on reviewing pull requests. Powered by large language models, SQUIRREL showcases how machine learning can be leveraged to enhance development workflows on GitHub. With a straightforward setup, it provides a glimpse into automated code review processes, encouraging developers to extend its capabilities to meet broader project needs.
 
 ## Setup
 1. Generate a GitHub access token.
@@ -13,7 +13,7 @@ SQUIRREL is an extensible GitHub agent designed to automate and streamline softw
 3. If not already in the repo, add `Procfile` to the root of the repo, which is require for Heroku.
     - The file should contain `web: python3 -m webservice`.
 4. Create a Heroku account.
-    - Under `Deploy/Deployment Method`, connect your GitHub repo.
+    - Under `Deploy/Deployment Method`, connect this GitHub repo.
     - Under `Settings/Config Vars`, click `Reveal Config Vars` and add your envrionment variables: 
         - `GH_AUTH` - GitHub access token.
         - `GH_WEBHOOK_SECRET`: A random string. You can generate a random string offline with a tool like [cuddly-succotash](https://github.com/ch3njust1n/cuddly-succotash).
