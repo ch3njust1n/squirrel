@@ -22,6 +22,7 @@ SQUIRREL is an extensible GitHub agent designed to automate and streamline softw
 5. Create a GitHub Webhook. In your repo, go to `Settings/Webhook` and click `Add webhook`.
     - Under `Payload URL`, add your Heroku Payload URL.
     - Under `Content type`, select `application/json`.
+    - Under `Secret`, add the random string you generated above for `GH_WEBHOOK_SECRET`.
     - Under the `Which events would you like to trigger this webhook?`, select `Let me select individual events.` and select the functionalities you want to enable.
 6. Head back to Heroku.
     - Under `Manual deploy`, select the branch you want to deploy and click `Deploy Branch`.
